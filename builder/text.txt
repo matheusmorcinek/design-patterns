@@ -1,0 +1,2 @@
+The builder pattern is used to construct complex objects by demand, instead of passing by the constructor, we are going to pass the attributes through methods.
+The idea is to build the object in parts, calling the methods and adding the values according to the necessity, then, in the end, calling the build method for creating the instance.
